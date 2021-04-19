@@ -1,0 +1,16 @@
+{
+  "name": "stockmarketdiscordbot",
+  "version": "1.0.0",
+  "description": "A simple bot to which you can ask the price values of NYSE stocks or some cryptocurrencies",
+  "main": "marketbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Godoy",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
