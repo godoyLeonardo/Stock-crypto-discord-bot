@@ -7,7 +7,7 @@ How to use it:
 - [Register a new bot on Discord developer portal](https://discord.com/developers/)
 - [Register on the Financial API portal and get your API KEY](https://financialmodelingprep.com/)
 - Clone the repository to the server or hosting of your choice
-- Rename ```.env.example``` to ```.env``` and complete the fields with your information ()
+- Rename ```.env.example``` to ```.env``` and complete the fields with your information
 - ```Run npm install```
 - Run ```node marketbot.js```
 - [Invite it to your server with the permissions to ```read messages```, ```send messages```, ```send embed links``` and ```read message history```](https://discordapi.com/permissions.html).
