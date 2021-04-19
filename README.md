@@ -23,9 +23,9 @@ NYSE Stocks:
 
 Cryptos:
 
--$BTCUSD
--$ADAUSD
--$ETHUSD
+- $BTCUSD
+- $ADAUSD
+- $ETHUSD
 
 
 [Github](https://github.com/vipeeerr/Stock-market-discord-bot).
