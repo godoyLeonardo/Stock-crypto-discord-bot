@@ -77,7 +77,7 @@ bot.on('message', async message => {
     stockEncoded = result[0];
 
     if(stockEncoded == null || stockEncoded == undefined || !stockEncoded || !stockEncoded.change){
-        message.channel.send(splitted[0]+' not found');
+        message.channel.send('$'+splitted[0]+' not found');
     }else{
       var change = stockEncoded.change;
       change = change.toString();
