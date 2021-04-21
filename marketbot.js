@@ -79,13 +79,14 @@ bot.on('message', async message => {
     if(stockEncoded == null || stockEncoded == undefined || !stockEncoded || !stockEncoded.change){
         message.channel.send('$'+splitted[0]+' not found');
     }else{
-      var change = stockEncoded.change;
+      let change = stockEncoded.change;
+      var gainColor = '';
       change = change.toString();
       if(! change.startsWith('-')){
         change = '+'+change;
-        var gainColor = '65280';
+        gainColor = `#57D125`;
       }else{
-        var gainColor = '16711680';
+        gainColor = `#FF0000`;
       }
       var changePerc = stockEncoded.changesPercentage;
       changePerc = changePerc.toString();
@@ -100,10 +101,6 @@ bot.on('message', async message => {
       companyName[0] = companyName[0].replace('_','');
       companyName[0] = companyName[0].replace('.','');
       companyName[0] = companyName[0].replace(' ','');
-    
-      console.log(companyName[0]);
-      console.log(stockEncoded.name.toString());
-      console.log(gainColor);
       message.channel.send({embed: {
           color: gainColor,
           author: {
