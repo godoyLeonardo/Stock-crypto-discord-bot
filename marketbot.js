@@ -24,6 +24,41 @@ bot.on('message', async message => {
   str = str.substring(1);
   var splitted = str.split(" ");
 
+  if(message.content == '$about' || message.content == '$help'){ 
+    message.channel.send({embed: {
+    title: 'Stock-market-discord-bot',
+    url: 'https://github.com/vipeeerr/Stock-crypto-discord-bot',
+    fields: [{
+      name: `Hello! Thank you for using this bot.`,
+      value: `To obtain information about a stock or a cryptocurrency, you only need to prefix a "$" to its ticker or abbreviation. In the case of cryptocurrencies, you must also add a currency (fiat) at the end to make the conversion. `,
+      inline: false
+    },
+    {
+      name: `Examples of use.`,
+      value: `$GME $AAPL $AMC $BTCUSD $ADAUSD $ETHUSD`,
+      inline: false
+    },
+     {
+      name: `My code is open source!`,
+      value: `Following the link at the top of this card, you can find the repository with the source code of this bot. You don't need to set up a server with the bot yourself, you can use the one I already have running for all of you. `,
+      inline: false
+    },
+       {
+      name: `How can I help you?`,
+      value: `You can do a pull/push/merge request in the repository to add it to the master branch. If programming is not your thing, any kind of donation is welcome, currently the bot costs about 30 dollars per month between server and the license to get the information we use. All information can be found by following the link at the beginning of this message.`,
+      inline: false
+    },
+    ],
+      timestamp: new Date(),
+      footer: {
+        text: `${bot.user.tag}`
+      },
+    }
+    });
+
+    return;
+  }
+
   if(splitted.length > 1){
     splitted[0] = splitted[0].toUpperCase();
     if(splitted[1] == 'news'){
