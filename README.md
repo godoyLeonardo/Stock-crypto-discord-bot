@@ -9,6 +9,10 @@ A simple bot to which you can ask the price values of NYSE stocks or some crypto
 
 ## How to use it
 
+If you want to invite the bot currently hosted by me
+
+- [Click me!](https://discord.com/oauth2/authorize?client_id=834572514315206736&scope=bot&permissions=84992)
+
 If you want to privately run the bot on your own server
 
 - [Register a new bot on Discord developer portal](https://discord.com/developers/)
@@ -19,10 +23,6 @@ If you want to privately run the bot on your own server
 - Run ```node marketbot.js```
 - [Invite it to your server with the permissions to ```read messages```, ```send messages```, ```send embed links``` and ```read message history```](https://discordapi.com/permissions.html).
 - Once on your server, call the bot with the command ```$ticker```
-
-If you want to invite the bot currently hosted by me
-
-- [Click me!](https://discord.com/oauth2/authorize?client_id=834572514315206736&scope=bot&permissions=84992)
 
 ## Examples of use
 
@@ -37,6 +37,11 @@ Cryptos:
 - $BTCUSD
 - $ADAUSD
 - $ETHUSD
+
+## Available commands
+
+- $about
+- $help
 
 
 [Github](https://github.com/vipeeerr/Stock-market-discord-bot).
