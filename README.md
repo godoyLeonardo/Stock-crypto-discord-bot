@@ -2,6 +2,11 @@
 
 A simple bot to which you can ask the price values of NYSE stocks or some cryptocurrencies.
 
+## The bot in action
+
+![$ETHUSD](https://cdn.discordapp.com/attachments/838872431938371606/838934927549661194/unknown.png)
+![$GME](https://cdn.discordapp.com/attachments/838872431938371606/838934951918567434/unknown.png)
+
 ## How to use it
 
 If you want to privately run the bot on your own server
