@@ -206,7 +206,7 @@ bot.on('message', async message => {
     return;
   }
   
-  message.channel.send('Syntax error');
+  message.channel.send('Error');
   return;
 
 });

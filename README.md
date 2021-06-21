@@ -9,10 +9,6 @@ A simple bot to which you can ask the price values of NYSE stocks or some crypto
 
 ## How to use it
 
-If you want to invite the bot currently hosted by me
-
-- [Click me!](https://discord.com/oauth2/authorize?client_id=834572514315206736&scope=bot&permissions=84992)
-
 If you want to privately run the bot on your own server
 
 - [Register a new bot on Discord developer portal](https://discord.com/developers/)
